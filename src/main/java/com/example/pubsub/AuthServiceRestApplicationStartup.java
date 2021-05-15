@@ -19,10 +19,7 @@ public class AuthServiceRestApplicationStartup implements ApplicationListener<Ap
   @Override
   public void onApplicationEvent(final ApplicationReadyEvent event) {
 
-    ParserSample sub = new ParserSample();
-	
-    System.out.println(sub.getParser());
-    System.out.println(sub.getExcel());
+    System.out.println("App started.");
     return;
   }
 
